@@ -11,4 +11,5 @@ Comparator Object for Animal Objects
 
 3. Can you spot the Comparator constructor call? Where is the class definition for the Comparator?
 
-The Comparator constructor call is in line 16, specifically "new Comparator<Animal>()". The class definition for the Comparator is in lines 17-19 with the override for the compare method.
+The Comparator constructor call is in line 16, specifically "new Comparator<Animal>()". 
+The class definition for the Comparator is specifically "Comparator<Animal>() { ... }".
